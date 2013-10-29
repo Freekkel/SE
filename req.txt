@@ -28,4 +28,17 @@ admin user:
 	remove any other user
 	reset passwords of any other user
 
+[sys requirement]
+	[functional req]
+		[
+		split/merge sessions
+	[non func]
+		[Product req]
+			[usability]
+			[efficiency]
+			[dependability]
+			[security]
+				Firewall plugin
+				encryption
 
+[scenarios]
