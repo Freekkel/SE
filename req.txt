@@ -1,0 +1,31 @@
+[User Req]
+Anonymous user can:
+	may be invited to any session by keys from authenticated users
+	use approved Plugins with key given from authenticated users
+	shall be able to register at the server, if registration is possible
+
+regular user:
+	may activate or deactivate installed plugins
+	shall be able to request installation of new plugins
+	shall be able to view any session he is invited to
+	shall be able to change his password and/or Alias
+	must register with a valid email
+	shall be able to delet his own account
+	only email address plus password
+
+authenticated user:
+	can do the same as a regular user plus:
+	shall be able to open sessions
+	can create and distribute keys(Anon) and send invitations(reg_user) to every session he has the rights to.
+	shall be able to close sessions he has the rights to
+
+admin user:
+	can do everything the auth_user can plus:
+	upgrade regular users to authenticated users
+	downgrade auth_user to reg_user
+	(un)install plugins
+	add plugins or users to the Blacklist
+	remove any other user
+	reset passwords of any other user
+
+
