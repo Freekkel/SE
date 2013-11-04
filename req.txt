@@ -1,17 +1,17 @@
 [User Req]
 Anonymous user can:
-	may be invited to any session by keys from authenticated users
-	use approved Plugins with key given from authenticated users
-	shall be able to register at the server, if registration is possible
+	X may be invited to any session by keys from authenticated users
+	X use approved Plugins with key given from authenticated users
+	X shall be able to register at the server, if registration is possible
 
 regular user:
-	may activate or deactivate installed plugins
-	shall be able to request installation of new plugins
-	shall be able to view any session he is invited to
-	shall be able to change his password and/or Alias
-	must register with a valid email
-	shall be able to delet his own account
-	only email address plus password
+	X may activate or deactivate installed plugins
+	X shall be able to request installation of new plugins
+	X shall be able to view any session he is invited to
+	X shall be able to change his password and/or Alias
+	X must register with a valid email
+	X shall be able to delet his own account
+	X only email address plus password
 
 authenticated user:
 	can do the same as a regular user plus:
