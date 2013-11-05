@@ -27,7 +27,7 @@ admin user:
 	add plugins or users to the Blacklist
 	remove any other user
 	reset passwords of any other user
----------------------------------------------------------------------
+
 user req:
 
 Freundelisten mit gewählten Gruppen (pidigin)
@@ -41,7 +41,7 @@ Gimp?
 
 
 Das Interface soll beliebig skalierbar sein
--------------------------------------------------------------------------
+
 
 [sys requirement]
 	[functional req]
