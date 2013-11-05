@@ -29,16 +29,17 @@ admin user:
 	reset passwords of any other user
 ---------------------------------------------------------------------
 
-  Kontaktliste mit gew√§hlten Gruppe
-  Stummschaltung von Mikrofon / Lautsprecher
-  Emoticon im Chat?
-  Benutzerprofil f√ºr User?
-
+Kontaktliste mit gew√§hlten Gruppe
+Stummschaltung von Mikrofon / Lautsprecher
+Emoticon im Chat?
+Benutzerprofil f√ºr User?
 √Ñnderung von Hochgeladenen Dateien?
-  Termin erinnerung? mit gesicht von michael + mail f√r anon usr
-  Doodle
-  Bilder zu whiteboard hinzuf√gen  
+Termin erinnerung? mit gesicht von michael + mail f√r anon usr
+functional Doodle
+Bilder zu whiteboard hinzuf√gen  
 
+usability utf8
+  
 
 
 -------------------------------------------------------------------------
