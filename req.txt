@@ -28,19 +28,19 @@ admin user:
 	remove any other user
 	reset passwords of any other user
 ---------------------------------------------------------------------
-user req:
 
-Freundelisten mit gewählten Gruppen (pidigin)
-Filterbare Audiosignale nach Gruppen. 
-Emoticon im Chat?
-Benutzerprofil für User?
-Sessionprofil mit Benutzerdefinierten PlugIn's?
+  Kontaktliste mit gewählten Gruppe
+  Stummschaltung von Mikrofon / Lautsprecher
+  Emoticon im Chat?
+  Benutzerprofil für User?
+
 Änderung von Hochgeladenen Dateien?
-Terminerinnerung?
-Gimp?
+  Termin erinnerung? mit gesicht von michael + mail f�r anon usr
+  Doodle
+  Bilder zu whiteboard hinzuf�gen  
 
 
-Das Interface soll beliebig skalierbar sein
+
 -------------------------------------------------------------------------
 
 [sys requirement]
