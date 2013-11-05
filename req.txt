@@ -59,6 +59,9 @@ x usability utf8
 		editing Files Online (life)
 		Whiteboard plugin (with picture in-/export)
 		muting/disabling certain streams without affecting others
+		Voting Plugin
+		Search Plugin
+		Spracherkennung
 	[non func]
 		[Product req]
 			[usability]
@@ -72,5 +75,18 @@ x usability utf8
 			[security]
 				Firewall plugin
 				encryption plugin
-
+		[Organ req]
+			[Environmental]
+			[Operational]
+			[Development]
+				CSS
+				Javascript
+				PHP5
+		[external req]
+			[regulatory]
+			[ethical]
+				gathers NO user data.
+				
+			[legislative]
+				uses only sourcecode copyrighted under creative common license
 [scenarios]
