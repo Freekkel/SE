@@ -27,22 +27,21 @@ admin user:
 	add plugins or users to the Blacklist
 	remove any other user
 	reset passwords of any other user
----------------------------------------------------------------------
 
-x Kontaktliste mit gewählten Gruppe
-  Stummschaltung von Mikrofon / Lautsprecher
-x Emoticon im Chat?
-x Benutzerprofil für User?
-  Änderung von Hochgeladenen Dateien?
-x Termin erinnerung? mit gesicht von michael + mail für anon usr
-x functional Doodle
-  Bilder zu whiteboard hinzufügen  
+user req:
 
-x usability utf8
-  
+Freundelisten mit gewÃ¤hlten Gruppen (pidigin)
+Filterbare Audiosignale nach Gruppen. 
+Emoticon im Chat?
+Benutzerprofil fÃ¼r User?
+Sessionprofil mit Benutzerdefinierten PlugIn's?
+Ã„nderung von Hochgeladenen Dateien?
+Terminerinnerung?
+Gimp?
 
 
--------------------------------------------------------------------------
+Das Interface soll beliebig skalierbar sein
+
 
 [sys requirement]
 	[functional req]
@@ -50,27 +49,14 @@ x usability utf8
 		
 		different views (save position of windows)
 		split/merge sessions
-		appointment reminder
-		Emoticons (blaaargh)
-		Doodle appointment finder
-		Whiteboard
-		Contact lists
-		User profile (Calling/Business card)
-		editing Files Online (life)
-		Whiteboard plugin (with picture in-/export)
-		muting/disabling certain streams without affecting others
+
 	[non func]
 		[Product req]
 			[usability]
-				epilepsy proof
-				UTF-8
 			[efficiency]
-				automatic scaling based on bandwith
-				lossles compressed codecs to reduce filesize
 			[dependability]
-				decentralized Server Structure
 			[security]
 				Firewall plugin
-				encryption plugin
+				encryption
 
 [scenarios]
