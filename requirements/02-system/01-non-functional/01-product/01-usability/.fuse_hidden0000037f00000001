@@ -1,0 +1,33 @@
+\paragraph{NFR001}
+\begin{description}
+  \item [Statement] 
+    \textit{The website should be usable with touchscreen devices.}
+  \item [Priority] \textit{A}
+\end{description}
+
+\paragraph{NFR002}
+\begin{description}
+  \item [Statement] 
+    \textit{The website should support the most popular browsers such as Mozilla Firefox, Safari, Opera, Google Chrome and Internet Explorer.}
+  \item [Priority] \textit{A}
+\end{description}
+
+\paragraph{NFR003}
+\begin{description}
+  \item [Statement] 
+    \textit{The service should prevent epileptic fits.}
+  \item [Priority] \textit{A}
+\end{description}
+
+\paragraph{NFR004}
+\begin{description}
+  \item [Statement] 
+    \textit{The service should use \gls{Tunneling} to provide its service when certain \gls{Ports} are unavailable.}
+  \item [Priority] \textit{A}
+\end{description}
+
+\paragraph{NFR005}
+\begin{description}
+  \item [Statement]
+    \textit{The characters should be encoded using \gls{UTF-8} }
+  \item [Priority] \textit{A}
