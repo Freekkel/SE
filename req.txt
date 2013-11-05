@@ -29,16 +29,16 @@ admin user:
 	reset passwords of any other user
 ---------------------------------------------------------------------
 
-Kontaktliste mit gewÃ¤hlten Gruppe
-Stummschaltung von Mikrofon / Lautsprecher
-Emoticon im Chat?
-Benutzerprofil fÃ¼r User?
-Ã„nderung von Hochgeladenen Dateien?
-Termin erinnerung? mit gesicht von michael + mail fÃr anon usr
-functional Doodle
-Bilder zu whiteboard hinzufÃgen  
+x Kontaktliste mit gewählten Gruppe
+  Stummschaltung von Mikrofon / Lautsprecher
+x Emoticon im Chat?
+x Benutzerprofil für User?
+  Änderung von Hochgeladenen Dateien?
+x Termin erinnerung? mit gesicht von michael + mail für anon usr
+x functional Doodle
+  Bilder zu whiteboard hinzufügen  
 
-usability utf8
+x usability utf8
   
 
 
@@ -50,14 +50,27 @@ usability utf8
 		
 		different views (save position of windows)
 		split/merge sessions
-
+		appointment reminder
+		Emoticons (blaaargh)
+		Doodle appointment finder
+		Whiteboard
+		Contact lists
+		User profile (Calling/Business card)
+		editing Files Online (life)
+		Whiteboard plugin (with picture in-/export)
+		muting/disabling certain streams without affecting others
 	[non func]
 		[Product req]
 			[usability]
+				epilepsy proof
+				UTF-8
 			[efficiency]
+				automatic scaling based on bandwith
+				lossles compressed codecs to reduce filesize
 			[dependability]
+				decentralized Server Structure
 			[security]
 				Firewall plugin
-				encryption
+				encryption plugin
 
 [scenarios]
