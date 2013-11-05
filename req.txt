@@ -28,10 +28,16 @@ admin user:
 	remove any other user
 	reset passwords of any other user
 
+user req:
+
+.....................................................................
 [sys requirement]
 	[functional req]
 		[
+		
+		different views (save position of windows)
 		split/merge sessions
+
 	[non func]
 		[Product req]
 			[usability]
