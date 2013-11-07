@@ -65,16 +65,16 @@ x usability utf8
 	[non func]
 		[Product req]
 			[usability]
-				epilepsy proof
-				UTF-8
+				X epilepsy proof
+				X UTF-8
 			[efficiency]
-				automatic scaling based on bandwith
-				lossles compressed codecs to reduce filesize
+				X automatic scaling based on bandwith
+				X lossles compressed codecs to reduce filesize
 			[dependability]
-				decentralized Server Structure
+				X decentralized Server Structure
 			[security]
 				Firewall plugin
-				encryption plugin
+				X encryption plugin
 		[Organ req]
 			[Environmental]
 			[Operational]
@@ -88,5 +88,5 @@ x usability utf8
 				gathers NO user data.
 				
 			[legislative]
-				uses only sourcecode copyrighted under creative common license
+				X uses only sourcecode copyrighted under creative common license
 [scenarios]
