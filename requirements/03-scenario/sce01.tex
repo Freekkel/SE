@@ -35,44 +35,111 @@
 %    \textit{User is logged on. The patient record including medical history is
 %     entered in the database.}
 %\end{description}
-
-\section{Scenario for a research group conference}
+\section{Scenario for a general video conference}
 \begin{description}
 \item[INITIAL ASSUMPTION:]
-\textit{Max, a member of an experimental physics research group, has found
-discrepancies between the simulated and actual behavior of a particle detection
-experiment (though the underlying physical processes are well known). Because
-the group is international, he wants to present his findings via the video
-conferencing tool. This includes the usage document sharing and of a whiteboard
-with the possibility to place supported graphical files on it. He and other
-participants want to draw on the whole whiteboard to accentuate their
-explanations. All research group members are already regular users and part of a
-common group within the tool. The group has registered a fixed date for the
-meeting and activated the reminder function with a set time distance to the
-meeting date.}
+\textit{Max, a member of an international research group, is responsible for
+the organization and conduct of internal group meetings. All research group members 
+are already regular users and registered in Max's contact list. He created
+a contact group that contains all group members. All participants know about
+the appointed date for the meeting.
+\\Unless otherwise stated, this assumptions
+hold for all following scenarios as well as the consequences that are discussed below.}
 \item[NORMAL:]
-\textit{At the set notification time, all group
-members get a notification email and, if they have the application open at that time, also
-a notification popup window within the tool. Before the meeting date, Max opens
-a new session and, as the moderator of the new session, invites the whole group
-to it by the 'Invite Group' function.
-All members that are already online within the tool, get a popup window that asks
-whether they want to participate. Those that are not online get an email that
-tells them about the invitation. When all members that want to participate are
-online and part of the session, Max begins to talk and uploads some
-supported graphics files containing research data plots. All session
-participants can access this files now. Max opens a new whiteboard, which is
-now visible to all participants. He selects one of the graphics files to be
-displayed on the whiteboard and starts to draw on top of the graphics to help
-the others to understand his explanations.}
+\textit{Before the given meeting date, Max creates
+a new video conference session and adjusts all necessary (was ist nötig an
+Einstellungen?) and optionally some advanced general session settings. He
+manipulates the list of participants by selecting the participating group
+members one by one out of his contact list or by selecting the whole contact
+group and deselecting some afterwards, where required. As the moderator of the
+new session, he may decide to elevate the privileges of members of the
+list of participants up to the moderator level. Now he may save the session for
+later use or start it immediately.
+\\When the session starts, all participants that are already online within the
+tool get a popup window that asks whether they want to join. Those that are not
+online receive an email that tells them about the invitation. If a user accepts
+an invitation, he is immediately part of the video conference and will be able
+to communicate with the others.}
 \item[WHAT CAN GO WRONG:]
+\textit{Some members of the research group are not already regular users and therefore
+Max cannot invite them regularly. After making notice of that, Max invites the
+missing users by sending them an one-way session key via email. This can be used
+once to join the session without regular invitation. As an
+alternative, he asks them to register to the server and then he invites them regularly.
+\\Some members of the research group are regular users but not members of Max's
+group of contacts, so they will not get invited if only the contact group is
+selected for invitation. Max can invite them via his contact list while the
+session is running.
+\\Some invited users may be part of another session at the time of invitation.
+They will see the invitation, but will leave their current session if they
+accept.
+\\Some participants lose their internet connection temporarily.
+When they are connected again, they should rejoin the session automatically.}
 \item[OTHER ACTIVITIES:]
+\textit{ }
 \item[SYSTEM STATE ON COMPLETION:]
+\textit{The video conference session is running and all participants can
+communicate with each other.}
 \end{description}
+
+\section{Scenario for a meeting planned via doodle plugin}
+\begin{description}
+\item[INITIAL ASSUMPTION:]
+\textit{All group members have the doodle plugin installed.}
+\item[NORMAL:]
+\textit{To reach an agreement on a group meeting date \ldots doodle plugin usage
+\ldots 
+\\Max activates the reminder function with a set time distance to the planned
+session date. At the set notification time, all participants of the doodle poll
+(and optionally additional users) get a notification email and, if they have the
+application open at that time, also a notification popup window within the tool.}
+\item[WHAT CAN GO WRONG:]
+\textit{Some group members did not install the doodle plugin and be part of the
+poll within the tool. They can install the plugin and join the poll with the
+tool or join the poll without the tool. In the latter case they will not receive
+any notification, except if Max added them manually to the notification list.}
+\item[OTHER ACTIVITIES:]
+\textit{ }
+\item[SYSTEM STATE ON COMPLETION:]
+\textit{All relevant users got notified by a popup window and/or email.}
+\end{description}
+
+
+\section{Scenario for a research presentation and discussion}
+\begin{description}
+\item[INITIAL ASSUMPTION:]
+\textit{Max wants to present his recent research results and discuss it with the
+whole group. This should by supported by the usage of document sharing and placement 
+and modification of graphics on the whiteboard.}
+\item[NORMAL:]
+\textit{Max creates the desired session and selects some of his local files
+containing data to be shared within the session. All session participants can download this
+files after the upload is completed. Max opens a new whiteboard, which is
+now visible to all participants. He selects some supported graphics files to be 
+displayed on the whiteboard. Then he starts to draw on top of the graphics to
+help the others to understand his explanations. As the moderator of the
+session, he may also allow others to use the whiteboard.}
+\item[WHAT CAN GO WRONG:]
+\textit{Placing the uploaded files on the whiteboard is not possible, because the
+file format is not supported for that purpose. Max gets an error message, which
+explains the problem and states which files are supported. If possible, he
+converts them and is able to present them on the whiteboard.}
+\item[OTHER ACTIVITIES:]
+\textit{Because modifications of the whiteboard by different users may happen
+concurrently, it is advisable to agree on who is modifying the whiteboard
+at a time. This can be enforced by the moderator.}
+\item[SYSTEM STATE ON COMPLETION:]
+\textit{Session participants are able to download shared files and
+the content of a graphics file is visible on the whiteboard together with
+modifications by hand.}
+\end{description}
+
 
 \section{Scenario for recording a session}
 \begin{description}
 \item[INITIAL ASSUMPTION:]
+\textit{Max has created a new plugin for the tool and wants to record an example
+session to show how it can be used.}
 \item[NORMAL:]
 \item[WHAT CAN GO WRONG:]
 \item[OTHER ACTIVITIES:]
