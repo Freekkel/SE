@@ -1,0 +1,243 @@
+\documentclass[8pt]{beamer}
+
+%% Zeichenkodierung
+
+\usepackage[latin1]{inputenc}
+
+%% Deutsches Sprachpaket
+\usepackage[german]{babel}
+
+%% Grafik-Einbindung
+\usepackage{graphicx}
+ \usepackage{color}
+%% Mathe-Einbindung
+\usepackage{amsmath,amsfonts,amssymb,bbm}
+
+%% Schriftart \"andern auf Computer Modern Sans Serif
+\usepackage[T1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{listings}
+
+%% Beamer Template
+\usetheme{Luebeck}
+
+%% Navigationssymbole ausblenden
+\setbeamertemplate{navigation symbols}{}
+
+%% Seitenzahl und Gesamtanzahl in Fußleiste
+\setbeamertemplate{footline}[frame number]
+
+%% Metadaten des Dokuments
+\title[Kurztitel]{Requirements engineering}
+\author{Sebastian M\"uller,Leonie Pelle, Jan Kessler, Sven Bamberger und Gero B\"u\ss{}ing}
+\date{WiSe 2013/14}
+
+%% Einzug nach Absatz und Zwischenraum
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+\begin{document}
+\thispagestyle{empty}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+\section{User Requirements}
+
+\begin{frame}{Anonymous User}
+Anonymous User:\\\pause
+may be invited to sessions\\\pause
+shall be able to use plugins\\\pause
+shall be able to register on servers that allow registration
+\end{frame}
+
+\begin{frame}{Regular User}
+A regular User:
+\\\pause must register with a valid email address.
+\\\pause shall be able to login with his email address and password.
+\\\pause shall be able to change his password and/or Alias.
+\\\pause shall be able to delete his own Account.
+\\\pause shall be able to open Sessions.
+\\\pause shall be able to join any Session he is invited to.
+\\\pause shall be able to close Sessions he has the rights to.
+\\\pause shall be able to create and distribute Keys and send Invitations to every Session he has the rights to.
+\\\pause may activate or deactivate Installed Plugins.
+\\\pause shall be able to request installation of new Plugins.
+\end{frame}
+\begin{frame}{Regular User}
+A Moderator shall be able to restrict privileges of Regular Users, if
+a Regular User misbehaves like insulting others, uploading inappropriate
+content or harming the system.
+\\\pause A Moderator shall be able to restore privileges of Regular Users.
+\\\pause A Moderator shall be able to suspend Accounts of Regular Users
+for a certain amount of time.
+\end{frame}
+\begin{frame}{Admin}
+ An Admin User shall be able to test Plugins requested by a Regular User.
+\\\pause An Admin User shall be able to install tested Plugins.
+\\\pause An Admin User shall be able to remove previously Installed Plugins.
+\\\pause An Admin User shall be able to add Plugins to a Blacklist, if they
+may harm the system.
+\\\pause An Admin User shall be able to remove Plugins from a Blacklist,
+if they were accidentally added.
+\end{frame}
+\section{Product Requirements}
+\subsection{Usability}
+\begin{frame}{Devices}
+The Service should be Touchscreen Compatible.\\\pause
+The Service should run on the most popular Browsers.
+\end{frame}
+
+\begin{frame}{Connection/Encoding}
+The Service should use tunneling if Certain Ports are unavailable\\\pause
+The Website should use UTF-8 encoding
+\end{frame}
+\subsection{Efficiency}
+\begin{frame}{Performance}
+The Service should work on Michael's Smartphone\\\pause
+Sessions Should work with limited bandwith\\\pause
+The Service should provide automatic scaling of the size/quality of streams based on bandwidth
+\end{frame}
+\begin{frame}{Space}
+The service should uselossless Codecs to reduce filesize\\\pause
+The service mustn't use more than 20Mb Cache on Mobile Devices.
+\end{frame}
+\subsection{Dependability}
+\begin{frame}{Dependability}
+Login Data and available plugins should be redundant on multiple servers\\\pause
+Client side Caching shold be used to minimize bandwidth consumption
+\end{frame}
+\subsection{security}
+\begin{frame}{Security}
+The service must always use encryption to transmit credetials to
+the server.\\\pause
+The service must save the password as a salted hash on the server.\\\pause
+The service must provide encryption for transmission of Session
+data to ensure privacy and to prevent Man-in-the-middle attacks.
+\end{frame}
+\section{Organisational}
+\subsection{Environmental}
+\begin{frame}{Environmentals}
+User Accounts are verified through the users email address and
+password.
+\end{frame}
+
+\subsection{Operational}
+
+\begin{frame}{Operational}
+Account data and Installed Plugins should be backed up frequently
+to prevent data loss during a server failure
+\\\pause The service itself, its dependencies (like web server software) and
+the operating system of the server should be kept up to date. Security holes
+will be closed by updates.
+\\\pause The services should have a logfile that lists status messages and
+errors (server side only). This helps to find/solve problems.
+\\\pause  The services should offer a test mode to test requested Plugins,
+without harming the system.
+\end{frame}
+
+\section{External}
+
+\subsection{Regulatory}
+
+\begin{frame}
+Open source\\\pause
+Documented and public available API
+\end{frame}
+
+\subsection{Ethical}
+
+\begin{frame}
+No Service side gathering of user data.\\\pause
+Voluntary data gets Saved but not distributed.
+\end{frame}
+
+\subsection{Legislative}
+
+\begin{frame}{Software License}
+Only use of GPL libraries \\\pause
+Distribution of code under GPL
+\end{frame}
+\section{Functional}
+\begin{frame}
+
+The user shall be able to compose and configure Window setups to
+save them and load them at later points in time
+\end{frame}
+\begin{frame}
+ 
+The service should provide the functionality to split a conference
+into multiple conferences. \\\pause The service should provide the functionality to
+merge multiple conferences into a single one.
+\end{frame}
+
+\begin{frame}
+The service should provide the functionaly to set a reminder for
+appointments and has the option of notifying every user/email that he
+associates with that appointment
+\end{frame}
+
+\begin{frame}
+The service should provide the functionality to insert preinstalled
+and customized emoticons in the chatting plugins
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to use a Doodle like
+plugin to find times for appointments and have the option to set a re-
+minder.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to use a whiteboard like
+plugin to freely draw in a session
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to create and edit con-
+tact lists.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to create Business
+Cards/Profiles other users can see.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to edit Files online and
+see edits from other users instantly
+\end{frame}
+\begin{frame}
+ The Whiteboard Plugin should have the capability to im-
+port pictures to edit and, if the user allows it, give every listener the option
+of downloading/saving the picture
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to mute/disable streams
+at the will of the user.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to call for a quick vote
+or simple choice.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to search the web and
+display the search results to every one who watches the session
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to recognize and exe-
+cute voice commands
+\end{frame}
+\begin{frame}
+ The service should provide the functionality for remote desktop
+recording/viewing.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality for client side desktop
+recording.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to open a chat with at
+least one other user.
+\end{frame}
+\begin{frame}
+ The service should provide the functionality to start audio/video
+calls with at least one other user.
+\end{frame}
+
+
+\end{document}
